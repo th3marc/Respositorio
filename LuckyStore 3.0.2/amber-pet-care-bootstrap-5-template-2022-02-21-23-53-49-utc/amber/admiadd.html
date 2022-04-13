@@ -321,8 +321,8 @@
                     <div class="breadcrumb-wrapper">
                         <h2 class="breadcrumb-title">Administrador</h2>
                         <ul>
-                            <li><a href="index.html">Inicio</a></li>
-                            <li>Administrador</li>
+                            <li><a href="#">Control Stock</a></li>
+                            <li>inventario</li>
                         </ul>
                     </div>
                 </div>
@@ -345,12 +345,9 @@
                             <!-- Table Head Start -->
                             <thead>
                                 <tr>
-                                    <th class="pro-thumbnail"></th>
-                                    <th class="pro-title">Productos</th>
-                                    <th class="pro-price">Precios</th>
-                                    <th class="pro-quantity">Cantidad</th>
-                                    <th class="pro-subtotal">Total</th>
-                                    <th class="pro-remove">Eliminar</th>
+                                    <th class="pro-title">Producto</th>
+                                    <th class="pro-price">Valor producto</th>
+                                    <th class="pro-subtotal">Stock</th>
                                 </tr>
                             </thead>
                             <!-- Table Head End -->
@@ -358,36 +355,17 @@
                             <!-- Table Body Start -->
                             <tbody>
                                 <tr>
-                                    <td class="pro-thumbnail"><a href="#"><img class="fit-image" src="assets/images/products/small-product/3.png" alt="Product" /></a></td>
-                                    <td class="pro-title"><a href="#">Correa retractil roja</a></td>
-                                    <td class="pro-price"><span>$14.760</span></td>
-                                    <td class="pro-quantity">
-                                        <div class="quantity">
-                                            <div class="cart-plus-minus">
-                                                <input class="cart-plus-minus-box" value="1" type="text">
-                                                <div class="Diciembre qtybutton">-</div>
-                                                <div class="inc qtybutton">+</div>
-                                            </div>
+                                    <td class="pro-thumbnail"><a href="#">Correa retractil roja</a></td>
+                                    <td class="pro-title"><a href="#">$14.760</a></td>
+                                    <td class="pro-price"><span>5</span></td>
                                         </div>
                                     </td>
-                                    <td class="pro-subtotal"><span>$14.760</span></td>
-                                    <td class="pro-remove"><a href="#"><i class="ti-trash"></i></a></td>
                                 </tr>
                                 <tr>
-                                    <td class="pro-thumbnail"><a href="#"><img class="fit-image" src="assets/images/products/small-product/4.png" alt="Product" /></a></td>
-                                    <td class="pro-title"><a href="#">Jugete pierna de pollo</a></td>
-                                    <td class="pro-price"><span>$1.500</span></td>
-                                    <td class="pro-quantity">
-                                        <div class="quantity">
-                                            <div class="cart-plus-minus">
-                                                <input class="cart-plus-minus-box" value="1" type="text">
-                                                <div class="Diciembre qtybutton">-</div>
-                                                <div class="inc qtybutton">+</div>
-                                            </div>
-                                        </div>
+                                    <td class="pro-thumbnail"><a href="#">Jugete pierna de pollo</a></td>
+                                    <td class="pro-title"><a href="#">$1.500</a></td>
+                                    <td class="pro-price"><span>8</span></td>
                                     </td>
-                                    <td class="pro-subtotal"><span>$1.500</span></td>
-                                    <td class="pro-remove"><a href="#"><i class="ti-trash"></i></a></td>
                                 </tr>
                             </tbody>
                             <!-- Table Body End -->
@@ -401,14 +379,15 @@
 
                         <!-- Cart Button left Side Start -->
                         <div class="cart-btn-lef-side mb-4">
-                            <a href="#" class="btn btn btn-gray-deep btn-hover-primary">Continuar comprando</a>
-                            <a href="#" class="btn btn btn-gray-deep btn-hover-primary">Actualizar carrito</a>
+                            <a href="#" class="btn btn btn-gray-deep btn-hover-primary">Añadir producto</a>
+                            <a href="#" class="btn btn btn-gray-deep btn-hover-primary">Eliminar producto</a>
+                            <a href="#" class="btn btn btn-gray-deep btn-hover-primary">Actualizar inventario</a>
                         </div>
                         <!-- Cart Button left Side End -->
 
                         <!-- Cart Button Right Side Start -->
                         <div class="cart-btn-right-right mb-4">
-                            <a href="#" class="btn btn btn-gray-deep btn-hover-primary">Limpiar carrito</a>
+                            <a href="Admiadm.html" class="btn btn btn-gray-deep btn-hover-primary">Volver</a>
                         </div>
                         <!-- Cart Button Right Side End -->
 
@@ -428,33 +407,18 @@
                         <div class="cart-calculate-items">
 
                             <!-- Cart Calculate Items Title Start -->
-                            <h3 class="title">Total de compras</h3>
+
                             <!-- Cart Calculate Items Title End -->
 
                             <!-- Responsive Table Start -->
-                            <div class="table-responsive">
-                                <table class="table">
-                                    <tr>
-                                        <td>Sub Total</td>
-                                        <td>$16.260</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Envio</td>
-                                        <td>$1.500</td>
-                                    </tr>
-                                    <tr class="total">
-                                        <td>Total</td>
-                                        <td class="total-amount">$17.760</td>
-                                    </tr>
-                                </table>
-                            </div>
+ 
                             <!-- Responsive Table End -->
 
                         </div>
                         <!-- Cart Calculate Items End -->
 
                         <!-- Cart Checktout Button Start -->
-                        <a href="checkout.html" class="btn btn btn-gray-deep btn-hover-primary mt-6">Proceder a comprar</a>
+
                         <!-- Cart Checktout Button End -->
 
                     </div>
